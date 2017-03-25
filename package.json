@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-savvy",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Savvy CSS config for stylelint",
   "main": "index.js",
   "keywords": [
@@ -16,6 +16,8 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^3.18.0",
+    "eslint-config-xo": "^0.18.1",
+    "eslint-config-xo-space": "^0.16.0",
     "jest": "^19.0.2",
     "npmpub": "^3.1.0",
     "nsp": "^2.6.3",
@@ -32,9 +34,11 @@
     "watch": "jest --watch"
   },
   "eslintConfig": {
-    "extends": [
-      "eslint:recommended"
-    ]
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
   },
   "jest": {
     "testEnvironment": "node",
