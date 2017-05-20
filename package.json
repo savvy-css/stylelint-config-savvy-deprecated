@@ -1,7 +1,7 @@
 {
   "name": "stylelint-config-savvy",
-  "version": "0.1.0",
-  "description": "Savvy CSS config for stylelint",
+  "version": "0.1.1",
+  "description": "[DEPRECATED] Please use @savvy-css/stylelint-config-savvy",
   "main": "index.js",
   "keywords": [
     "stylelint",
@@ -11,7 +11,7 @@
   "files": [
     "index.js"
   ],
-  "repository": "https://github.com/savvy-css/stylelint-config-savvy.git",
+  "repository": "https://github.com/savvy-css/stylelint-config-savvy-deprecated.git",
   "author": "Brian Sipple <@Brian_Sipple>",
   "license": "MIT",
   "devDependencies": {

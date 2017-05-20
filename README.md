@@ -1,0 +1,1 @@
+**[DEPRECATED] Please use @savvy-css/stylelint-config-savvy**
